@@ -11,15 +11,14 @@ const Main = ({ children, router}) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Simone Sala's homepage" />
         <meta name="author" content="Simone Sala" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/cloud.png" type="image/x-icon" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@simonexsala" />
         <meta name="twitter:creator" content="@simonexsala" />
-        <meta name="twitter:image" content="/card.png" />
+        <meta name="twitter:image" content="/cloud.png" />
         <meta property="og:site_name" content="Simones Sala's Homepage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />        
+        <meta property="og:image" content="/cloud.png" />  
         <title> Simone Sala - Homepage</title>
       </Head>
 
