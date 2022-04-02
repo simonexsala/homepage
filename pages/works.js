@@ -1,0 +1,58 @@
+import { Container, Box, Heading, SimpleGrid, Divider, Badge } from "@chakra-ui/react"
+import Section from "../components/section"
+import { WorkGridItem } from "../components/grid-item"
+import Paragraph from "../components/paragraph"
+import Layout from '../components/layouts/article'
+
+// Create same size images
+import thumbnailFED from '../public/images/works/quadro-macroeconomico/fed.png'
+import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
+
+const Works = () => (
+  <Layout title="Scritti">
+    <Container>
+      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+        Scritti
+      </Heading>
+
+      <SimpleGrid columns={[1,1,2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="quadro-macroeconomico" title="Quadro macroeconomico" thumbnail={thumbnailFED}>
+          Attraverso il passato per il futuro
+          <br></br>
+          <Badge>10 Febbraio 2022</Badge>
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="pepe" title="Pepe e Wojak" thumbnail={thumbnailPEPE}>
+            Simboli dell'inconscio
+            <br></br>
+          <Badge>23 Marzo 2022</Badge>
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Collaborations
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1,1,2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem id="template" title="Template" thumbnail={thumbnailPEPE}>
+            toni
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="uaaa" title="Chiara" thumbnail={thumbnailPEPE}>
+            La mia bellissima scimmietta ❤️
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+    </Container>
+  </Layout>
+)
+
+export default Works
