@@ -61,7 +61,7 @@ const Home = () => {
             Interessi
           </Heading>
           <Paragraph>
-            Porto sempre con me una curiosità violenta che danza senza sosta e mi attrae verso gli straordinari prodotti dell'ingegno: umano e divino. Inseguendo questa mia compagna di vita fluttuo nell'intero dominio dell'esplorazione, tra il mistico e il fisico, sgranando gli occhi sempre incredulo rispetto a ciò che mi mostra.   
+            Vivo con una curiosità violenta che danza senza sosta e mi trasporta verso gli straordinari frutti del pensiero. Al fianco di questa compagna fluttuo nell'intero dominio dell'ignoto, tra il mistico e lo straordinario, trovando sempre sorpresa in qualcosa di nuovo.   
           </Paragraph>
         </Section>
 
