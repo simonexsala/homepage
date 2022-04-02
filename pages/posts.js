@@ -18,7 +18,7 @@ const Posts = () => (
             <GridItem 
               title="Work in progress..." 
               thumbnail={thumbnailPEPE} 
-              href=""
+              // href=""
             />
         </SimpleGrid>
       </Section>
