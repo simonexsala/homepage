@@ -34,7 +34,7 @@ const components = {
 }
 
 const fonts = {
-  heading: "'M PLUS Rounded 1c'"
+  heading: "'Inter'"
 }
 
 const colors = {
