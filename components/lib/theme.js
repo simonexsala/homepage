@@ -34,7 +34,8 @@ const components = {
 }
 
 const fonts = {
-  heading: "'Inter'"
+  heading: "'Inter'",
+  p: "'Inter'"
 }
 
 const colors = {
