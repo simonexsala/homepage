@@ -190,7 +190,7 @@ const Home = () => {
                     marginRight="auto"
                     title="Indirizzo Bitcoin"
                     alt=""
-                    src='/images/bc1qgsaxy960e2ua8nek8k45wqgw9f39tmu53axrrx.png'
+                    src='/images/bc1qmgccwpdhf324lzyh7d4n30zcnp269u4jv7cnd0.png'
                     placeholder="blur"
                     loading="lazy"
                     objectFit='cover'
