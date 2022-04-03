@@ -17,17 +17,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section delay={0.1}>
-          <WorkGridItem id="quadro-macroeconomico" title="Quadro macroeconomico" thumbnail={thumbnailFED}>
-          Attraverso il passato per il futuro
-          <br></br>
-          <Badge>10 Febbraio 2022</Badge>
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
           <WorkGridItem id="pepe" title="Pepe e Wojak" thumbnail={thumbnailPEPE}>
             Simboli dell'inconscio
             <br></br>
-          <Badge>23 Marzo 2022</Badge>
+            <Badge>23 Marzo 2022</Badge>
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="quadro-macroeconomico" title="Quadro macroeconomico" thumbnail={thumbnailFED}>
+            Attraverso il passato per il futuro
+            <br></br>
+            <Badge>10 Febbraio 2022</Badge>
           </WorkGridItem>
         </Section>
       </SimpleGrid>
