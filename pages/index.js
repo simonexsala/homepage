@@ -38,7 +38,6 @@ import {
   ModalCloseButton
 } from '@chakra-ui/react'
 
-
 import thumbnailFED from '../public/images/works/quadro-macroeconomico/fed.png'
 import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
 
@@ -61,7 +60,7 @@ const Home = () => {
             Interessi
           </Heading>
           <Paragraph>
-            Vivo con una curiosità violenta che danza senza sosta e mi trasporta verso gli straordinari frutti del pensiero. Al fianco di questa compagna fluttuo nell'intero dominio dell'ignoto, tra il mistico e lo straordinario, trovando sempre sorpresa in qualcosa di nuovo.   
+            Conquistando consapevolezza delle realtà della vita attraverso una curiosità violenta ho deciso di impegnarmi nella ricerca della luce nei confini dell'intero dominio dell'ignoto, tra il mistico, lo straordinario e l'atroce. Ogni giorno dedico energia nel tentativo di muovere un nuovo passo verso la mappatura di questo mondo tenebroso; una missione che mi seppellirà.
           </Paragraph>
         </Section>
 
@@ -70,13 +69,15 @@ const Home = () => {
             Scritti
           </Heading>
           <Paragraph>
-            Questo sito è una raccolta di pensieri che ho adornato affinché fossero degni dell'occhio altrui. Non per atto di magnanimità verso il lettore oppure per vezzo personale, ma piuttosto per una questione di puro egoismo.
+            Questo lavoro consiste in un raccolta di pensieri, attraverso anche ciò che li hanno stimolati, che ho adornato affinché fossero degni dell'occhio altrui. Non per atto di magnanimità verso il lettore o per vezzo personale, ma piuttosto per una questione di egoismo puro. Scrivere, per me, è il miglior metodo, spesso l'unico praticabile, per costruire un pensiero raffinato. Nel terribile istante in cui sono messo di fronte alla mia incompetenza e ingenuità vedo un'apertura per conciliarmi con il mondo.
           </Paragraph>
           <Paragraph>
-            Ritengo che scrivere sia il miglior metodo, talvolta l'unico praticabile, per costruire un pensiero raffinato perché solamente nel terribile istante in cui è messo di fronte alla propria incompetenza e ingenuità l'uomo vede un'apertura per conciliarsi con il mondo. Nell'audace atto della condivisione la natura intima di uno scritto muta, obbligando così l'autore a soddisfare, nel modo migliore possibile, le incompletezze del proprio lavoro, rinunciando così alla corruzione delle apparenze. In questo impegno, oltre alla non banalità del pensiero, si rende necessario uno sforzo verso le forme e l'armonia delle linee della composizione, due elementi che contrastano attivamente la pigrizia e l'indolenza umana.
-           </Paragraph>
+            Nell'audace atto della condivisione la natura intima di uno scritto muta, obbligando così l'autore a soddisfare, nel modo migliore possibile, le incompletezze del proprio pensiero, rinunciando così alla corruzione delle apparenze. In questo impegno, oltre alla ricercatezza delle figure e delle vicende, si rende necessario uno sforzo purificatorio che faccia tendere le forme e le linee della composizione verso l'armonia, un elemento che contrasta attivamente la pigrizia, l'indolenza e la corruzione umana.
+          </Paragraph>
           <Paragraph>
-            Ecco che dunque si delinea il perché di questo lavoro: in primo luogo per la mia persona, e solo successivamente per gli altri.          </Paragraph>
+            Ecco che dunque si delinea il perché di questo lavoro: uno sforzo espansivo della mia personalità che in qualche modo andrà anche a fare da radiazione cosmica di fondo nelle vite di altri.
+          </Paragraph>
+
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ArrowForwardIcon />} colorScheme="teal">
