@@ -50,7 +50,7 @@ const Home = () => {
         <Box display={{ md: 'flex' }} p={3} textAlign="center">
           <Box flexGrow={1}>
             <Heading as="h1" variant="page-title">
-              Ciao, sono Simone
+              Simone Sala
             </Heading>
           </Box>
         </Box>
