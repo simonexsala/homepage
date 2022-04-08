@@ -69,14 +69,15 @@ const Home = () => {
             Scritti
           </Heading>
           <Paragraph>
-            Questo lavoro consiste in un raccolta di pensieri, attraverso anche ciò che li hanno stimolati, che ho adornato affinché fossero degni dell'occhio altrui. Non per atto di magnanimità verso il lettore o per vezzo personale, ma piuttosto per una questione di egoismo puro. Scrivere, per me, è il miglior metodo, spesso l'unico praticabile, per costruire un pensiero raffinato. Nel terribile istante in cui sono messo di fronte alla mia incompetenza e ingenuità vedo un'apertura per conciliarmi con il mondo.
+            Questo lavoro consiste in un raccolta di pensieri, attraverso anche ciò che li hanno stimolati, a cui ho dedicato attenzioni affinché fossero degni dell'occhio altrui. Non per vezzo personale o come atto di magnanimità verso il lettore, ma per una questione di egoismo puro. Scrivere, secondo me, è il metodo infallibile, e spesso l'unico praticabile, per costruire un pensiero raffinato. Posto di fronte alla mia stessa incompetenza e ingenuità, nel terribile istante del mio fallimento, vedo un'apertura per conciliarmi con il mondo anzihé rifuggire nelle fogne dell'omertà.
           </Paragraph>
           <Paragraph>
-            Nell'audace atto della condivisione la natura intima di uno scritto muta, obbligando così l'autore a soddisfare, nel modo migliore possibile, le incompletezze del proprio pensiero, rinunciando così alla corruzione delle apparenze. In questo impegno, oltre alla ricercatezza delle figure e delle vicende, si rende necessario uno sforzo purificatorio che faccia tendere le forme e le linee della composizione verso l'armonia, un elemento che contrasta attivamente la pigrizia, l'indolenza e la corruzione umana.
+            Nell'audace atto della condivisione la natura intima di uno pensiero muta, obbligando l'architetto a soddisfare, nel modo migliore possibile, le incompletezze del proprio pensiero, rinunciando così alla corruzione delle apparenze. Facendo questo, oltre alla ricerca dei motivi, si rende necessario uno sforzo purificatorio che cerchi di conciliare e creare armonia nelle forme e nelle linee della composizione, un impegno che contrasta attivamente la pigrizia e l'indolenza umana.
           </Paragraph>
           <Paragraph>
             Ecco che dunque si delinea il perché di questo lavoro: uno sforzo espansivo della mia personalità che in qualche modo andrà anche a fare da radiazione cosmica di fondo nelle vite di altri.
           </Paragraph>
+
 
           <Box align="center" my={4}>
             <NextLink href="/works">
