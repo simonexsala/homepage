@@ -60,7 +60,7 @@ const Home = () => {
             Interessi
           </Heading>
           <Paragraph>
-            Conquistando consapevolezza delle realtà della vita attraverso una curiosità violenta ho deciso di impegnarmi nella ricerca della luce nei confini dell'intero dominio dell'ignoto, tra il mistico, lo straordinario e l'atroce. Ogni giorno dedico energia nel tentativo di muovere un nuovo passo verso la mappatura di questo mondo tenebroso; una missione che mi seppellirà.
+            La virtù più intima del linguaggio non è celata nelle sue abilità come veicolo d'espressione, la sua massima sofisticazione piuttosto sta nella capacità di annientare tutte le forme viziose e di autoinganno, spesso tutelate dalla complicità dell'omertà, che logorano lo spirito e soffocano la personalità. Rincorrendo verso la conquista della consapevolezza nelle realtà della vita e raccogliendo le saette che un giorno gli permetteranno di illuminare frammenti del dominio dell'ignoto, l'uomo sperimenta meraviglie e atrocità. Solo rinunciando alla domesticazione e sprigionando la propria energia nel tentativo di mappare questo mondo tenebroso trova sollievo.
           </Paragraph>
         </Section>
 
