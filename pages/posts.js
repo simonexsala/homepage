@@ -5,7 +5,7 @@ import { GridItem } from "../components/grid-item"
 
 // Thumbnails
 //
-import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
+import thumbnailPEPE from '../public/images/pepe-thinking.png'
 
 const Posts = () => (
   <Layout title="Posts">
