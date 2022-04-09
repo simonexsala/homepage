@@ -34,6 +34,10 @@ const components = {
 }
 
 const fonts = {
+<<<<<<< Updated upstream
+=======
+  // heading: "'M PLUS Rounded 1c'"
+>>>>>>> Stashed changes
   heading: "'Inter'",
   p: "'Inter'"
 }

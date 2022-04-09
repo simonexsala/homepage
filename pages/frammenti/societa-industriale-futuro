@@ -1,0 +1,27 @@
+import { Container, Box, Heading, Image, Link, Badge, List, ListItem } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/frammento'
+import Paragraph from '../../components/paragraph'
+import Layout from '../../components/layouts/article'
+
+const Frammento = () => {
+  return (
+    <Layout title="La società industriale e il suo futuro">
+      <Container>
+        <Title>
+          La società industriale e il suo futuro&nbsp;
+        </Title>
+        <List ml={4} my={4}>
+          <ListItem>
+            <Meta>Theodore J. Kaczinsky</Meta>
+            <span>Il manifesto di Unabomber&nbsp;</span>
+            <Meta>19 settembre 1995</Meta>
+          </ListItem>
+        </List>
+        
+      </Container>
+    </Layout>
+  )
+}
+
+export default Frammento

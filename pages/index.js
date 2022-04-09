@@ -60,7 +60,11 @@ const Home = () => {
             Interessi
           </Heading>
           <Paragraph>
+<<<<<<< Updated upstream
             La virtù più intima del linguaggio non è celata nelle sue abilità come veicolo d'espressione, la sua massima sofisticazione piuttosto sta nella capacità di annientare tutte le forme viziose e di autoinganno, spesso tutelate dalla complicità dell'omertà, che logorano lo spirito e soffocano la personalità. Rincorrendo verso la conquista della consapevolezza nelle realtà della vita e raccogliendo le saette che un giorno gli permetteranno di illuminare frammenti del dominio dell'ignoto, l'uomo sperimenta meraviglie e atrocità. Solo rinunciando alla domesticazione e sprigionando la propria energia nel tentativo di mappare questo mondo tenebroso trova sollievo.
+=======
+            La virtù più intima del linguaggio non è celata nelle sue abilità come veicolo d'espressione, la sua massima sofisticazione piuttosto sta nella capacità di annientare tutte le forme viziose e di autoinganno, spesso tutelate dalla complicità dell'omertà, che logorano lo spirito e soffocano la personalità. Rincorrendo verso la conquista della consapevolezza nelle realtà della vita e raccogliendo le saette che un giorno gli permetteranno di illuminare frammenti del dominio dell'ignoto, l'uomo sperimenta meraviglie e atrocità. Solo rinunciando alla domesticazione e sprigionando la propria energia nel tentativo di mappare questo mondo tenebroso trova sollievo.          
+>>>>>>> Stashed changes
           </Paragraph>
         </Section>
 
@@ -78,7 +82,10 @@ const Home = () => {
             Ecco che dunque si delinea il perché di questo lavoro: uno sforzo espansivo della mia personalità che in qualche modo andrà anche a fare da radiazione cosmica di fondo nelle vite di altri.
           </Paragraph>
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ArrowForwardIcon />} colorScheme="teal">

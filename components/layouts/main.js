@@ -18,7 +18,11 @@ const Main = ({ children, router}) => {
         <meta name="twitter:image" content="/cloud.png" />
         <meta property="og:site_name" content="Simones Sala's Homepage" />
         <meta property="og:type" content="website" />
+<<<<<<< Updated upstream
         <meta property="og:image" content="/cloud.png" />  
+=======
+        <meta property="og:image" content="/cloud.png" />        
+>>>>>>> Stashed changes
         <title> Simone Sala - Homepage</title>
       </Head>
 
