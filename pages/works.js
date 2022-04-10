@@ -7,7 +7,7 @@ import Layout from '../components/layouts/article'
 // Create same size images
 import thumbnailFED from '../public/images/works/quadro-macroeconomico/fed.png'
 import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
-import thumbanilCONTROLLO from '../public/images/works/nuova-frontiera/soyjack-monkey.png'
+import thumbanilCONTROLLO from '../public/images/works/societa-controllo/soyjack-monkey.png'
 
 const Works = () => (
   <Layout title="Scritti">
@@ -18,10 +18,10 @@ const Works = () => (
 
       <SimpleGrid columns={[1,1,2]} gap={6}>
         <Section delay={0.1}>
-          <WorkGridItem id="nuova-frontiera" title="La nuova frontiera della società di controllo" thumbnail={thumbanilCONTROLLO}>
-            Il furto della sovranità individuale
+          <WorkGridItem id="societa-controllo" title="La società del controllo" thumbnail={thumbanilCONTROLLO}>
+            L'invasione dello spazio personale
             <br></br>
-            <Badge>23 Marzo 2022</Badge>
+            <Badge>8 Aprile 2022</Badge>
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

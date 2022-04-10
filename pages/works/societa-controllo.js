@@ -7,28 +7,25 @@ import Quote from '../../components/quote'
 
 const Work = () => {
   return (
-    <Layout title="La nuova frontiera del controllo">
+    <Layout title="La società del controllo">
       <Container>
         <Title>
-          La nuova frontiera del controllo&nbsp;
+          La società del controllo&nbsp;
           <Badge>2022</Badge>
         </Title>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Sociale</Meta>
-            <Meta>12 Aprile 2022</Meta>
+            <Meta>8 Aprile 2022</Meta>
           </ListItem>
         </List>
 
         <Heading as="h2" fontSize={18} textAlign="center">
-          La nuova frontiera della società di controllo
-        </Heading>
-        <Heading as="h3" fontSize={16} textAlign="center">
-          Il furto della sovranità individuale
+          La società del controllo
         </Heading>
 
         <SimpleGrid columns={[1,1,1]} gap={6}>
-          <WorkImage src="/images/works/nuova-frontiera/pod.png" alt="pod-life" />
+          <WorkImage src="/images/works/societa-controllo/zuck.png" alt="zuck-npc" />
         </SimpleGrid>
         <br></br>
 
@@ -101,6 +98,10 @@ const Work = () => {
         </Quote>
         &nbsp;— Gilles Deleuze, 1990
         <br /><br />
+
+        <Link href="https://simonesala.xyz/frammenti/societa-controllo">
+        Deleuze, Postscript on the Societies of Control&nbsp;<ExternalLinkIcon mx="2px" />
+        </Link>
       </Container>
     </Layout>
   )
