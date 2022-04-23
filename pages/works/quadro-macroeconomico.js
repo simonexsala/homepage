@@ -24,7 +24,7 @@ const Work = () => {
           Panoramica
         </Heading>
         <Paragraph>
-          La Federal Reserve degli Stati Uniti d’America (FED), seguita a ruota da quella Europea (BCE), dal 2008 ad oggi ha apparecchiato le condizioni perfette, tramite tassi di interesse con cui concede denaro alle banche prossimi o pari a zero e prepotente allentamento quantitativo (QE), un intervento espansivo della moneta in circolazione a debito, per la creazione di una bolla finanziaria come nessun altra. 
+          La Federal Reserve degli Stati Uniti d’America (FED), seguita a ruota dalla Banca Centrale Europea (BCE), dal 2008 ad oggi ha apparecchiato le condizioni perfette, tramite tassi di interesse con cui concede denaro alle banche prossimi o pari a zero e prepotente allentamento quantitativo (QE), un intervento espansivo della moneta in circolazione a debito, per la creazione di una bolla finanziaria come nessun altra. 
           Manipolando i tassi di interesse la FED è in grado di ridurre o aumentare il costo del denaro circolante nell’economia, ossia dei soldi che essa stessa fornisce sotto forma di prestito alle banche commerciali che a loro volta cedono a clienti. In momenti storici di tassi bassi, come quelli odierni, le banche commerciali hanno accesso a capitale monetario da allocare a prezzi pressoché nulli, e dunque anche il cliente può ottenere un prestito agevolato (la banca riceve il capitale ad un tasso di 0% o 0.25%, può anche darsi che il tasso sia negativo). Inversamente quando i tassi di interesse aumentano i profitti del settore bancario aumentano con essi, poiché possono ottenere un margine di profitto superiore sui dollari prestati. Per il resto del settore commerciale, un aumento dei tassi incide sulla redditività, poiché sale il costo del capitale necessario.
         </Paragraph>
         <WorkImage src="/images/works/quadro-macroeconomico/1.png" alt="tightening-cycles" />
@@ -32,7 +32,7 @@ const Work = () => {
           L’andamento storico dei tassi di interesse della FED. Nel post 2008 i tassi sono rimasti prossimi a zero, incrementando dal 2015 al 2019 fino a 2.5%, ma ridotti immediatamente a zero con l’arrivo della pandemia.
         </Caption>
         <Paragraph>
-          Oltre all’azzeramento dei tassi di interesse la FED ha proseguito con una strategia più aggressiva tramite l’espansione del proprio bilancio con titoli di stato e asset finanziari, a seguito di un aumento del rifornimento di moneta circolante a fronte di debito sottoscritto dallo stato. A seguito di questo allentamento quantitativo di genera inflazione e una lievitazione degli asset acquistati dalla FED. 
+          Oltre all’azzeramento dei tassi di interesse la FED ha proseguito con una strategia più aggressiva tramite l’espansione del proprio bilancio con titoli di stato e asset finanziari, a seguito di un aumento del rifornimento di moneta circolante a fronte di debito sottoscritto dallo stato. Questo allentamento quantitativo genera inflazione e una lievitazione del valore degli asset acquistati dalla FED. 
         </Paragraph>
         <WorkImage src="/images/works/quadro-macroeconomico/2.png" alt="fed-balance-sheet" />
         <Caption>
