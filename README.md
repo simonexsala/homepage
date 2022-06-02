@@ -23,8 +23,4 @@ $PROJECT_ROOT
 └── public
 ```
 
-## License
-
-MIT License.
-
 Made following Takuya Matsuyama's tutorial [https://www.craftz.dog/](https://www.craftz.dog/)
