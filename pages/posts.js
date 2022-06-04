@@ -5,7 +5,7 @@ import { GridItem } from "../components/grid-item"
 
 // Thumbnails
 //
-import thumbnailPEPE from '../public/images/pepe-thinking.png'
+import dots from '../public/images/progetti/rice.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -14,12 +14,12 @@ const Posts = () => (
         Progetti
       </Heading>
       <Section delay={0.1}>
-        <SimpleGrid colums={[1,2,2]} gap={6}>
-            <GridItem 
-              title="Work in progress..." 
-              thumbnail={thumbnailPEPE} 
-              // href=""
-            />
+        <SimpleGrid colums={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="My Linux Dotfiles"
+            thumbnail={dots}
+            href="https://github.com/simonexsala/dotfiles"
+          />
         </SimpleGrid>
       </Section>
     </Container>
