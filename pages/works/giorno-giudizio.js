@@ -2,6 +2,7 @@ import { Container, Box, Heading, Image, Link, Badge, List, ListItem } from '@ch
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import Paragraph from '../../components/paragraph'
+import Quote from '../../components/quote'
 import Layout from '../../components/layouts/article'
 
 const Work = () => {
@@ -69,12 +70,12 @@ const Work = () => {
         Gli Stati Uniti sono sopravvissuti alla caduta 2008 in una stanza di ospedale attaccati a dieci macchinari diversi.
         Non sono coscienti, ma non sono morti.
         Non sono morti perché la loro morte equivarrebbe ad ammettere il fallimento di cinquanta e più anni di teorie e la decadenza della prosperità e dell'autorità e dell'eccellenza occidentale.
-        Il modello statunitense per il mondo ha fallito e sperimenteremo di prima mano il modello mandarino.
+        Il modello statunitense per il mondo ha fallito e sperimenteremo di prima mano il prototipo mandarino.
         <Paragraph>
           Ancora più terribile, pazzo per il controllo e la sorveglianza.
         </Paragraph>
-
-
+        <br />
+        <Quote>The end of democracy and the defeat of the American Revolution will occurr when government falls into the hands of lending institutions and moneyed incorporations.</Quote> &nbsp;— Thomas Jefferson
       </Container>
     </Layout>
   )
