@@ -8,6 +8,7 @@ import Layout from '../components/layouts/article'
 import thumbnailFED from '../public/images/works/quadro-macroeconomico/fed.png'
 import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
 import thumbanilCONTROLLO from '../public/images/works/societa-controllo/soyjack-monkey.png'
+import thumbnailGIUDIZIO from '../public/images/works/giorno-giudizio/markets.png'
 
 const Works = () => (
   <Layout title="Scritti">
@@ -16,7 +17,14 @@ const Works = () => (
         Scritti
       </Heading>
 
-      <SimpleGrid columns={[1,1,2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="giorno-giudizio" title="Giorno del giudizio" thumbnail={thumbnailGIUDIZIO}>
+            La caduta degli Stati Uniti
+            <br></br>
+            <Badge>6 Giugno 2022</Badge>
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="societa-controllo" title="La società del controllo" thumbnail={thumbanilCONTROLLO}>
             L'invasione dello spazio personale
@@ -38,6 +46,7 @@ const Works = () => (
             <Badge>10 Febbraio 2022</Badge>
           </WorkGridItem>
         </Section>
+
       </SimpleGrid>
     </Container>
   </Layout>
