@@ -34,7 +34,7 @@ const Work = () => {
           La spesa e il debito del paese, dal 1971 e in maniera più repentina nel 2008 e 2020, hanno visto un incremento finanziato dalla zecca della Riserva Federale.
         </Paragraph>
         <Paragraph>
-          L'aumento del rifornimento circolante di moneta è la prima causa dell'inflazione che si manifesta nel tempo nei mercati. L'intera discussione in materia si è fatta viva e protagonista nei media a seguito del conflitto Ucraino, ma tanti avevano già avvisato e sapevano delle conseguenze dell'espansione monetaria; la narrazione dei media e dei politici occidntali è costruita affinché vengano affidate tutte le disfatte economiche ad un singolo comune nemico, riducendo le responsabilità vere a nullità.
+          L'aumento del rifornimento circolante di moneta è la prima causa dell'inflazione che si manifesta nel tempo nei mercati. L'intera discussione in materia si è fatta viva e protagonista nei media a seguito del conflitto Ucraino, ma tanti avevano già avvisato e sapevano delle conseguenze dell'espansione monetaria; la narrazione dei media e dei politici occidentali è costruita affinché vengano affidate tutte le disfatte economiche ad un singolo comune nemico, riducendo le responsabilità vere a nullità.
         </Paragraph>
         <WorkImage src="/images/works/giorno-giudizio/fed-m1.jpeg" alt="Espansione monetaria" />
         <br />
@@ -43,7 +43,7 @@ const Work = () => {
           L'egemonia di cui hanno goduto fin'ora li ha visti capaci di definire le modalità d'azione in qualsiasi dominio, da quello economico e finanziario, a quello militare, politico e monetario.
         </Paragraph>
         <Paragraph>
-          Il dollaro americano si è cimentato bastione del commercio mondiale dopo la vittoria indiscussa del 1945, e attraverso i furti mondiali effettuati per finanziare la guerra in Vietnam che ha fatto scattare la riforma del 1971 è prosperato fino ad oggi.
+          Il dollaro americano si è eretto a bastione del commercio mondiale dopo la vittoria indiscussa del 1945, e attraverso i furti mondiali effettuati per finanziare la guerra in Vietnam che ha fatto scattare la riforma del 1971 è prosperato fino ad oggi.
           Ovunque nazioni, banche, hedge fund e individui custodiscono dollari americani come asset supremo, in grado di sopravvivere a qualsiasi sfortuna nei mercati.
         </Paragraph>
         <Paragraph>
