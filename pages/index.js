@@ -1,14 +1,14 @@
 import NextLink from 'next/link'
-import { 
-  Button, 
-  SimpleGrid, 
-  List, 
-  Container, 
-  Box, 
-  Heading, 
-  Divider, 
-  useColorModeValue, 
-  Link, 
+import {
+  Button,
+  SimpleGrid,
+  List,
+  Container,
+  Box,
+  Heading,
+  Divider,
+  useColorModeValue,
+  Link,
   ListItem,
   ChakraProvider,
   useDisclosure,
@@ -38,8 +38,8 @@ import {
   ModalCloseButton
 } from '@chakra-ui/react'
 
-import thumbnailFED from '../public/images/works/quadro-macroeconomico/fed.png'
-import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
+import thumbnailA from '../public/images/works/nuova-frontiera/pain.png'
+import thumbnailB from '../public/images/works/giorno-giudizio/markets.png'
 
 const Home = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -88,19 +88,19 @@ const Home = () => {
         </Section>
 
         <Section delay={0.4}>
-          <Heading as="h3"variant="section-title">
+          <Heading as="h3" variant="section-title">
             Scritti più recenti
           </Heading>
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
-              href="/works/quadro-macroeconomico"
-              title="Quadro macroeconomico"
-              thumbnail={thumbnailFED}
+              href="/works/nuova-frontiera"
+              title="Nuova frontiera"
+              thumbnail={thumbnailA}
             />
             <GridItem
-              href="/works/pepe"
-              title="Pepe e Wojak"
-              thumbnail={thumbnailPEPE}
+              href="/works/giorno-giudizio"
+              title="Giorno giudizio"
+              thumbnail={thumbnailB}
             />
           </SimpleGrid>
         </Section>
@@ -126,7 +126,7 @@ const Home = () => {
             Progetti
           </Heading>
           <Paragraph>
-            Diversi progetti di natura prevalentemente tecnica su cui ho lavorato, con alcuni pensieri e osservazioni a riguardo.  
+            Diversi progetti di natura prevalentemente tecnica su cui ho lavorato, con alcuni pensieri e osservazioni a riguardo.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/posts">
@@ -138,16 +138,16 @@ const Home = () => {
         </Section>
 
         <Section delay={0.4}>
-          <Heading as="h3"variant="section-title">
+          <Heading as="h3" variant="section-title">
             Online
           </Heading>
           <List textAlign="center">
             <Link href="https://twitter.com/simonexsala" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<IoLogoTwitter />}
-                />
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              />
             </Link>
             <Link href="https://github.com/simonexsala" target="_blank">
               <Button
@@ -156,7 +156,7 @@ const Home = () => {
                 leftIcon={<IoLogoGithub />}
               />
             </Link>
-            
+
             <Link href="https://instagram.com/simonexsala" target="_blank">
               <Button
                 variant="ghost"
@@ -178,7 +178,7 @@ const Home = () => {
               leftIcon={<IoLogoBitcoin />}
             />
             <Modal isOpen={isOpen} onClose={onClose} isCentered motionPreset='slideInBottom'>
-              <ModalOverlay 
+              <ModalOverlay
                 bg='blackAlpha.200'
                 backdropFilter='blur(10px)'
               />
