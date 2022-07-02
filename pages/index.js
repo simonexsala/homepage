@@ -6,11 +6,7 @@ import {
   Container,
   Box,
   Heading,
-  Divider,
-  useColorModeValue,
   Link,
-  ListItem,
-  ChakraProvider,
   useDisclosure,
   Img
 } from '@chakra-ui/react'
@@ -23,7 +19,6 @@ import { GridItem } from '../components/grid-item'
 
 import {
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
   IoLogoBitcoin,
   IoMailOutline
@@ -110,7 +105,7 @@ const Home = () => {
             Frammenti
           </Heading>
           <Paragraph>
-            Una piccola libreria di estratti di valore provenienti da tutte le parti del mondo in cui mi sono imbattuto durante le mie ricerche, riportati senza aggiunte o commenti.
+            Una piccola libreria di frammenti di provenienza mista raccolti in un unico posto perché hanno stimolato pensieri o emozioni durante le mie ricerche.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/frammenti">
@@ -126,7 +121,7 @@ const Home = () => {
             Progetti
           </Heading>
           <Paragraph>
-            Diversi progetti di natura prevalentemente tecnica su cui ho lavorato, con alcuni pensieri e osservazioni a riguardo.
+            Progetti di natura prevalentemente tecnica che ho creato.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/posts">
@@ -154,14 +149,6 @@ const Home = () => {
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
-              />
-            </Link>
-
-            <Link href="https://instagram.com/simonexsala" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
               />
             </Link>
             <Link href="mailto:simonexsala@protonmail.com" target="_blank">
