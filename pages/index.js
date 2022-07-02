@@ -99,7 +99,7 @@ const Home = () => {
             />
             <GridItem
               href="/works/giorno-giudizio"
-              title="Giorno giudizio"
+              title="Giorno del giudizio"
               thumbnail={thumbnailB}
             />
           </SimpleGrid>
