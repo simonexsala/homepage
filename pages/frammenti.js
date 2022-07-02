@@ -3,6 +3,7 @@ import Layout from "../components/layouts/article"
 import Section from "../components/section"
 import { FrammentoGridItem } from "../components/grid-item"
 
+import dostoevskij from '../public/images/frammenti/dostoevskij.png'
 import nietzsche from '../public/images/frammenti/nietzsche.png'
 import jung from '../public/images/frammenti/jung.png'
 import foucault from '../public/images/frammenti/foucault.png'
@@ -16,11 +17,18 @@ const Frammenti = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1,1,2]} gap={6}>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <FrammentoGridItem id="socialisti" title="Socialisti" thumbnail={dostoevskij}>
+              Fëdor Dostoevskij
+              <br></br>
+            </FrammentoGridItem>
+          </Section>
+
           <Section delay={0.1}>
             <FrammentoGridItem id="delle-tarantole" title="Delle tarantole" thumbnail={nietzsche}>
               Friedrich Nietzsche
-            <br></br>
+              <br></br>
             </FrammentoGridItem>
           </Section>
           <Section delay={0.1}>

@@ -16,7 +16,7 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid colums={[1, 2, 2]} gap={6}>
           <GridItem
-            title="My Linux Dotfiles"
+            title="Linux Dotfiles"
             thumbnail={dots}
             href="https://github.com/simonexsala/dotfiles"
           />
