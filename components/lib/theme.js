@@ -5,7 +5,7 @@ import Colors from '../colors'
 const styles = {
   global: props => ({
     body: {
-      bg: mode('#F7F7ED', '#022E2B')(props)
+      bg: mode('#F7F7ED', '#181825')(props)
     }
   })
 }
@@ -25,8 +25,8 @@ const components = {
     }
   },
   Link: {
-    baseStyle:props => ({
-      color: mode('#022E2B', '#F7F7ED')(props),
+    baseStyle: props => ({
+      color: mode('#181825', '#F7F7ED')(props),
       textUnderlineOffset: 3,
       boxShadow: 'none !important'
     })
