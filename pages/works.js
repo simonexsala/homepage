@@ -10,6 +10,7 @@ import thumbnailPEPE from '../public/images/works/pepe/pepe.png'
 import thumbanilCONTROLLO from '../public/images/works/societa-controllo/soyjack-monkey.png'
 import thumbnailGIUDIZIO from '../public/images/works/giorno-giudizio/markets.png'
 import thumbnailFRONTIERA from '../public/images/works/nuova-frontiera/pain.png'
+import thumbnailFRATTALI from '../public/images/works/frattali/frattali.png'
 
 const Works = () => (
   <Layout title="Scritti">
@@ -19,6 +20,13 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="frattali" title="Arte, Mandelbrot e frattali" thumbnail={thumbnailFRATTALI}>
+            Simboli semplici, complessi e indefiniti
+            <br />
+            <Badge>16 Luglio 2022</Badge>
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="nuova-frontiera" title="Nuova frontiera" thumbnail={thumbnailFRONTIERA}>
             Il furto della sovranità individuale
