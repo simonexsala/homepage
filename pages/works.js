@@ -12,6 +12,7 @@ import thumbnailGIUDIZIO from '../public/images/works/giorno-giudizio/markets.pn
 import thumbnailFRONTIERA from '../public/images/works/nuova-frontiera/pain.png'
 import thumbnailFRATTALI from '../public/images/works/frattali/frattali.png'
 import thumbnailDROGHE from '../public/images/works/droghe/pepe.png'
+import thumbnailINTIMITA from '../public/images/works/intimita/parents.png'
 
 const Works = () => (
   <Layout title="Scritti">
@@ -21,6 +22,13 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="intimita" title="Il consenso e l'intimità" thumbnail={thumbnailINTIMITA}>
+            Il danno collaterale della libertà
+            <br />
+            <Badge>30 Luglio 2022</Badge>
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="droghe" title="La crociata contro le droghe" thumbnail={thumbnailDROGHE}>
             L'esibizionismo morale dei lecca stivali
